@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>La vie d'un kiwi 🥝</title>
+  <link rel="stylesheet" href="css/kiwi.css" />
+  <link rel="stylesheet" href="css/Semantic-UI-CSS/semantic.min.css" />
+
+</head>
+
+<body>
+  <div class="monstre">
+    <div id="monster" class="ui raised card">
+      <div class="content">
+        <a class="header"></a>
+      </div>
+      <div class="ui image">
+        <img src="images/kiwi.jpg" class="hidden content">
+      </div>
+      <div class="contenu">
+        <ul id="status">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="infos">
+      <div class="content">
+        <h3>Règles</h3>
+        <p>Toutes les 12 secondes vous perdez 1 <i class="heart red icon"></i> et une action aléatoire se réalise. Le but est de survivre et de gagner le plus de 💎 possible en effectuant des actions.</p>
+        <h3>Boîte de dialogue</h3>
+        <p>Retrouvez ici toutes les informations concernant votre kiwi 🥝</p>
+
+      </div>
+      <div id="actionbox" class="ui raised segment monster">
+      </div>
+      <button class="ui red button" id="vider">Vider le contenu</button>
+    </div>
+  </div>
+
+  <h4 class="ui horizontal divider header">
+    <i class="star icon"></i>
+    ACTIONS
+  </h4>
+
+  <div class="actions">
+    <button class="ui red button" id="b2">Courrir</button>
+    <button class="ui orange button" id="b3">Combattre</button>
+    <button class="ui yellow button" id="b7">Travailler</button>
+    <button class="ui green button" id="b4">Dormir</button>
+    <button class="ui teal button" id="b5">Manger</button>
+    <button class="ui blue button" id="b6">Afficher</button>
+  </div>
+
+
+  <div class="actions">
+    <button class="ui violet button" id="b1">Nouvelle vie</button>
+    <button class="ui purple button" id="k">Mourir</button>
+  </div>
+
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <script src="kiwi.js"></script>
+
+</body>
+
+</html>

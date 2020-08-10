@@ -155,7 +155,7 @@ monster.modules.action = (() => {
   let sleep = () => {
     let message = "<p><span>Action impossible (Vous êtes mort)</span></p>";
     if (!awake) {
-      message = "<p><span>Action ikmpossible (Vous êtes endormi)</span></p>";
+      message = "<p><span>Action impossible (Vous êtes endormi)</span></p>";
     }
 
     if (life > 0 && awake) {
